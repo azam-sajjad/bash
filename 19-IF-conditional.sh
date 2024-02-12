@@ -34,7 +34,10 @@
 #       -O FILE        True if the file is effectively owned by you.
 #       -G FILE        True if the file is effectively owned by your group.
 #       -N FILE        True if the file has been modified since it was last read.
-    
+#       -z FILE        True if the file is empty
+
+              -ne   <=
+              -ge   >=
 #       FILE1 -nt FILE2  True if file1 is newer than file2 (according to
 #                        modification date).
     
